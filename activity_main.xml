@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayoutStartPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/mainPageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/roseRed"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewMainTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="60dp"
+            android:text="@string/textViewMainTitle"
+            android:textAllCaps="false"
+            android:textColor="@color/roseYellow"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageViewRose"
+            android:layout_width="301dp"
+            android:layout_height="205dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="45dp"
+            app:srcCompat="@mipmap/rose" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/editTextFullName"
+            android:inputType="textPersonName"
+            android:textColor="@color/roseYellow"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/editTextEmail"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/roseYellow"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonLetsBegin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/roseYellow"
+            android:text="@string/buttonLetsBegin"
+            android:textColor="@color/roseRed"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>

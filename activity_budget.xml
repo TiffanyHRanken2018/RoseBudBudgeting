@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutStartPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/roseRed"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/mainPageLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/roseRed"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textViewBudgetTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:autoText="false"
+                android:text="@string/textViewBudgetTitle"
+                android:textColor="@color/roseYellow"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/editTextYearlyIncome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editTextYearlyIncome"
+                android:inputType="numberDecimal"
+                android:textColor="@color/roseYellow" />
+
+            <EditText
+                android:id="@+id/editTextRent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editTextRent"
+                android:inputType="numberDecimal"
+                android:textColor="@color/roseYellow" />
+
+            <EditText
+                android:id="@+id/editTextCarPayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editTextCarPayment"
+                android:inputType="numberDecimal"
+                android:textColor="@color/roseYellow" />
+
+            <EditText
+                android:id="@+id/editTextUtilities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editTextUtilities"
+                android:inputType="numberDecimal"
+                android:textColor="@color/roseYellow" />
+
+            <EditText
+                android:id="@+id/editTextChildCare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editTextChildCare"
+                android:inputType="numberDecimal"
+                android:textColor="@color/roseYellow" />
+
+            <EditText
+                android:id="@+id/editTextInsurance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editTextInsurance"
+                android:inputType="numberDecimal"
+                android:textColor="@color/roseYellow" />
+
+            <EditText
+                android:id="@+id/editTextGroceries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editTextGroceries"
+                android:inputType="numberDecimal"
+                android:textColor="@color/roseYellow" />
+
+            <EditText
+                android:id="@+id/editTextGas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editTextGas"
+                android:inputType="numberDecimal"
+                android:textColor="@color/roseYellow" />
+
+            <EditText
+                android:id="@+id/editTextPhoneBill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editTextPhoneBill"
+                android:inputType="numberDecimal"
+                android:textColor="@color/roseYellow" />
+
+            <EditText
+                android:id="@+id/editTextOther"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editTextOther"
+                android:inputType="numberDecimal"
+                android:textColor="@color/roseYellow" />
+
+            <TextView
+                android:id="@+id/textViewSavings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="25dp"
+                android:hint="@string/editTextOther"
+                android:textColor="@color/roseYellow"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textViewSavingsImportance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:autoText="false"
+                android:text="@string/textViewSavingsImportance"
+                android:textColor="@color/roseYellow"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewHowMuch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/textViewHowMuch"
+                android:textColor="@color/roseYellow"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textViewWhatPercent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:text="@string/textViewWhatPercent"
+                android:textColor="@color/roseYellow"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <SeekBar
+                android:id="@+id/seekBarSavings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/roseYellow"
+                android:clickable="false"
+                android:longClickable="false"
+                android:max="25"
+                android:scrollbars="horizontal" />
+
+            <Button
+                android:id="@+id/buttonSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginRight="110dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/roseYellow"
+                android:onClick="calculateBudget"
+                android:text="@string/buttonSubmit"
+                android:textColor="@color/roseRed"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/textViewAnalysisTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="@string/textViewAnalysisTitle"
+                android:textColor="@color/roseYellow"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textViewResults"
+                android:layout_width="366dp"
+                android:layout_height="424dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/roseYellow"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>
